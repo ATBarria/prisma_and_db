@@ -1,0 +1,11 @@
+GET http://localhost:8040/ HTTP/1.1
+###
+
+POST http://localhost:8040/blogposts HTTP/1.1
+
+Content-Type: application/json
+
+{
+    "title": "A post",
+    "content": "a lot of text"
+}
